@@ -1,0 +1,6 @@
+.canvas{
+    min-height: 30vh;
+    width: 50%;
+    margin: 20px auto;
+    border:cyan 3px solid ;
+}
