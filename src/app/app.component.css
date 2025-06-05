@@ -4,3 +4,9 @@
     margin: 20px auto;
     border:cyan 3px solid ;
 }
+li span{
+    
+    min-height : 30px;
+    width: 30px;
+    border-radius: 50%;
+}

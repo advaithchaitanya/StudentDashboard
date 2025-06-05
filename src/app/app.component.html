@@ -12,7 +12,7 @@
         <h2>Students Log</h2>
         <ul>
           <li *ngFor="let i of students" [ngStyle]="{'color': i.grade === 'A' ? 'green' : i.grade === 'B' ? 'orange' : 'red'}">
-            {{i.name}} - Grade: {{i.grade}} 
+            {{i.name}} - Grade: {{i.grade}} <span [ngStyle]="{'color': i.grade === 'A' ? 'green' : i.grade === 'B' ? 'orange' : 'red'}" [ngStyle]="{'background': i.grade === 'A' ? 'green' : i.grade === 'B' ? 'orange' : 'red'}">A</span>
           </li>
         </ul>
       </div>
